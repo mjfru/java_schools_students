@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.view-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.view-header {
+	width: 100%;
+	display: flex;
+	padding: 20px 0px;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: slategrey;
+}
+
+.view-header h1 {
+	color: #05aae1;
+	font-family: 'Rock Salt', cursive;
+	text-decoration: underline;
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 1px 2px 3px whitesmoke;
+}
+
+.view-table {
+	width: 50%;
+	padding-top: 20px;
+}
+
+#table-headings {
+	color: gold;
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.student-info {
+	font-size: 18px;
+	color: #05aae1;
+	font-weight: bold;
+	font-family: 'Oxygen Mono', monospace;
+}
